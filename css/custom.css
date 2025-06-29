@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #f0f8ff;
+}
+
+.navbar {
+    background-color: #ff69b4;
+    padding-left: 6rem;
+
+}
+@media screen and (max-width: 990px) {
+    .navbar{
+        padding: 0;
+    }
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+    align-items: right;
+    width: 100%;
+    min-width: 120px;
+    /* width: fit-content; */
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #ff69b4;
+    border-color: #ff69b4;
+}
+
+.btn-primary:hover {
+    background-color: #ff1493;
+    border-color: #ff1493;
+}
+
+footer {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.blog-content {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
